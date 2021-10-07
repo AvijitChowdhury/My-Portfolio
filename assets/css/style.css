@@ -10,14 +10,14 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
-  color: #fff;
+  color: rgb(214, 230, 241);
   position: relative;
   background: transparent;
 }
 
 body::before {
   content: "";
-  position: absolute;
+  position: fixed;
   background: #040404 url("../img/background.png") top right no-repeat;
   background-size: cover;
   left: 0;
@@ -953,8 +953,9 @@ section .container {
 }
 
 .credits a {
-  color: #1869d2;
+  color: #2724d4;
   transition: 0.3s;
+  font-style:inherit;
 }
 
 .credits a:hover {
